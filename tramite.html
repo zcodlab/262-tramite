@@ -76,19 +76,17 @@
                             <input type="text" placeholder="Ingrese el texto">
                         </div>
                     </div>
+                </div>
+                <div class="terms-container">
+                    <input type="checkbox" id="accept-terms">
+                    <label for="accept-terms" class="label-inline">Acepto los 
+                        <a href="#" onclick="openModal()" class="link-primary">Terminos y condiciones</a>
+                    </label>
+                </div>
 
-                    <div class="terms-container">
-                        <input type="checkbox" id="accept-terms">
-                        <label for="accept-terms" class="label-inline">Acepto los 
-                            <a href="#" onclick="openModal()" class="link-primary">Terminos y condiciones</a>
-                        </label>
-                    </div>
-
-                    <div class="flex-end mt-20">
-                        <button class="btn btn-secondary" onclick="shwoScreen('status')">Atrás</button>
-                        <button class="btn btn-primary" onclick="shwoScreen('dashboard')">Validar</button>
-                    </div>
-
+                <div class="flex-end mt-20">
+                    <button class="btn btn-secondary" onclick="shwoScreen('status')">Atrás</button>
+                    <button class="btn btn-primary" onclick="shwoScreen('dashboard')">Validar</button>
                 </div>
 
             </section>

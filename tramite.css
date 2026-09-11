@@ -90,7 +90,7 @@ label{
 }
 
 input[type="text"],input[type="date"], select{
-    width: 100%;
+    width: 98%;
     padding: 12px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -120,4 +120,39 @@ input[type="text"],input[type="date"], select{
 
 .btn-primary:hover{
     background-color: var(--secondary-color);
+}
+
+.grid-2-cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.flex-gap-10{
+    display: flex;
+    gap: 10px;
+}
+.captcha-box{
+    background: #eee;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    font-family: cursive;
+}
+
+.terms-container{
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.label-inline{
+    display: inline;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.btn-secondary{
+    background-color: #6c757d;
+    color: white;
 }
