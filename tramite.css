@@ -3,6 +3,7 @@
     --bg-light: #f9f9f9;
     --text-dark: #333;
     --white: #ffffff;
+    --border-color: #ddd;
 }
 
 body{
@@ -58,4 +59,39 @@ header{
 .screen-description{
     color: #666;
     margin-top: 20px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+    background: var(--white);
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0, 0.05);
+    border-radius: 8px;
+    min-height: 400px;
+}
+
+h2{
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input[type="text"],input[type="date"], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
 }
