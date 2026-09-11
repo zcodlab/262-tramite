@@ -49,7 +49,7 @@
                 </div>
             </section>
             <!--Screen 2: Validar datos del ciudadano -->
-            <section id="screen-validation" class="screen active">
+            <section id="screen-validation" class="screen">
                 <h2>Validacion de Datos del Ciudadano</h2>
                 <p class="screen-description">Estimado usuario para realizar su tramite en linea, 
                     primero debe validar sus datos</p>
@@ -87,6 +87,28 @@
                 <div class="flex-end mt-20">
                     <button class="btn btn-secondary" onclick="shwoScreen('status')">Atrás</button>
                     <button class="btn btn-primary" onclick="shwoScreen('dashboard')">Validar</button>
+                </div>
+            </section>
+
+            <!--Screen 3: Dashboard -->
+            <section id="screen-dashboard" class="screen active">
+                <h2>Mesa de Partes</h2>
+                <p>Estimada
+                    <strong>ZORAIDA EMPERATRIZ</strong>, por este canal virtual podra presentar
+                     documentos de forma rapida sin necesidad de acercarse a la Mesa de Partes del RENIEC</p>
+                <div class="dashboard-grid">
+                    <div class="card" onclick="showScreen('registration')">
+                        <div class="card-icon">📙</div>
+                        <h3>Registro de Documentos</h3>
+                        <p>Presente un nuevo tramite</p>
+                    </div>
+
+                    <div class="card" onclick="showScreen('inbox')">
+                        <div class="card-icon">📂</div>
+                        <h3>Mis Documentos</h3>
+                        <p>Consulte sus tramites realizados</p>
+                    </div>
+
                 </div>
 
             </section>
